@@ -30,6 +30,19 @@ mkosi
 
 The generated image will be available in the `output` directory.
 
+## Boot the built image on the target
+
+In the `output` directory, there is a `bmap` file usable for flashing a device (SD card, USB key...).
+
+```bash
+output/
+|-- image -> image.raw
+|-- image.SHA256SUMS
+`-- image.raw
+```
+
+For the Raspberry Pi, you can follow the [instructions](https://docs.redpesk.bzh/docs/en/master/download/boards/docs/boards/raspi.html#copying-the-image-on-your-sdcard) to flash the image on the target.
+
 ## Other examples
 
 You can find more details on the usage of `mkosi` in redpesk by going to [rp-mkosi](https://github.com/redpesk-infra/rp-mkosi) repository.
