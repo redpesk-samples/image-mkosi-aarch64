@@ -31,7 +31,6 @@ type=rpm
 module_hotfixes=1
 gpgcheck=0
 
-
 [redpesk-middleware]
 name=RedPesk middle
 baseurl=https://download.redpesk.bzh/redpesk-lts/corn-3.0-update/packages/middleware/$basearch/os/
