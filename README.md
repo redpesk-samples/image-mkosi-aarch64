@@ -56,10 +56,15 @@ In the `output` directory, there is a `bmap` file usable for flashing a device (
 output/
 |-- image -> image.raw
 |-- image.SHA256SUMS
-`-- image.raw
+|-- image.raw
+|-- image.raw.bmap
+|-- image.raw.sha256
+`-- image.raw.tar.xz
 ```
 
 For the Raspberry Pi, you can follow the [instructions](https://docs.redpesk.bzh/docs/en/master/download/boards/docs/boards/raspi.html#copying-the-image-on-your-sdcard) to flash the image on the target.
+
+For the SolidRun HummingBoard Pulse, you can follow the [instructions](https://docs.redpesk.bzh/docs/en/master/download/boards/docs/boards/solidrun-hummingboard-pulse.html#flash-the-sd-card) to flash the image on the target.
 
 ## Other examples
 
