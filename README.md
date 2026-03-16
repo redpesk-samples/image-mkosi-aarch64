@@ -18,7 +18,7 @@ or directly online on mkosi GitHub
 
 ### Raspberry Pi
 
-In the `rpi` directory, you will find a **flat configuration** for generating a redpesk OS image for Raspberry supported platforms.
+In the `raspberry-pi` directory, you will find a **flat configuration** for generating a redpesk OS image for Raspberry supported platforms.
 
 The idea is to make it easier to understand and to modify than in the root configuration of the repository.
 There is only one configuration file, no profiles and one script executed for sha256 checksum and bmapfile generation.
@@ -26,7 +26,7 @@ There is only one configuration file, no profiles and one script executed for sh
 To build a redpesk OS image for Raspberry targets, run:
 
 ```bash
-cd rpi
+cd raspberry-pi
 mkosi
 ```
 
