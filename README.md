@@ -1,5 +1,9 @@
 # Build your redpesk OS image (aarch64) using mkosi
 
+redpesk factory allows to create redpesk OS image with your custom applications and settings based on mkosi tool.
+
+The full documentation to create an image is available online at [docs.redpesk.bzh](https://docs.redpesk.bzh/docs/en/master/redpesk-factory/images-management/01-create-an-image.html).
+
 mkosi is a systemd tool that generates disk images [https://mkosi.systemd.io](https://mkosi.systemd.io).
 
 For redpesk OS, the main goal is that it uses systemd-repart for making gpt
