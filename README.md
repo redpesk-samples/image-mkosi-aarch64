@@ -3,7 +3,7 @@
 mkosi is a systemd tool that generates disk images [https://mkosi.systemd.io](https://mkosi.systemd.io).
 
 For redpesk OS, the main goal is that it uses systemd-repart for making gpt
-partitionning without any priviledge using libfdisk [https://www.freedesktop.org/software/systemd/man/latest/systemd-repart.html](https://www.freedesktop.org/software/systemd/man/latest/systemd-repart.html).
+partitioning without any privilege using libfdisk [https://www.freedesktop.org/software/systemd/man/latest/systemd-repart.html](https://www.freedesktop.org/software/systemd/man/latest/systemd-repart.html).
 
 Have a look on the man page for more information:
 
