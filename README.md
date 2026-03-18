@@ -20,22 +20,6 @@ or directly online on mkosi GitHub
 
 ## Simple example
 
-### Raspberry Pi
-
-In the `raspberry-pi` directory, you will find a **flat configuration** for generating a redpesk OS image for Raspberry supported platforms.
-
-The idea is to make it easier to understand and to modify than in the root configuration of the repository.
-There is only one configuration file, no profiles and one script executed for sha256 checksum and bmapfile generation.
-
-To build a redpesk OS image for Raspberry targets, run:
-
-```bash
-cd raspberry-pi
-mkosi
-```
-
-The generated image will be available in the `output` directory.
-
 ### SolidRun Hummingboard Pulse
 
 In the `hummingboard-pulse` directory, you will find a **flat configuration** for generating a redpesk OS image for HummingBoard supported platforms.
@@ -65,8 +49,6 @@ output/
 |-- image.raw.sha256
 `-- image.raw.tar.xz
 ```
-
-For the Raspberry Pi, you can follow the [instructions](https://docs.redpesk.bzh/docs/en/master/download/boards/docs/boards/raspi.html#copying-the-image-on-your-sdcard) to flash the image on the target.
 
 For the SolidRun HummingBoard Pulse, you can follow the [instructions](https://docs.redpesk.bzh/docs/en/master/download/boards/docs/boards/solidrun-hummingboard-pulse.html#flash-the-sd-card) to flash the image on the target.
 
