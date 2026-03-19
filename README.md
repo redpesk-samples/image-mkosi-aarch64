@@ -22,7 +22,7 @@ or directly online on mkosi GitHub
 
 ### SolidRun Hummingboard Pulse
 
-In the `hummingboard-pulse` directory, you will find a **flat configuration** for generating a redpesk OS image for HummingBoard supported platforms.
+In this directory, you will find a **flat configuration** for generating a redpesk OS image for HummingBoard supported platforms.
 
 The idea is to make it easier to understand and to modify than in the root configuration of the repository.
 There is only one configuration file, no profiles. There is one script executed for sha256 checksum and bmapfile generation, whilst another is used to flash firmware at a specific offset within the image.
@@ -30,7 +30,6 @@ There is only one configuration file, no profiles. There is one script executed 
 To build a redpesk OS image for SolidRun Hummingboard Pulse targets, run:
 
 ```bash
-cd hummingboard-pulse
 mkosi
 ```
 
