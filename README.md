@@ -30,7 +30,7 @@ There is only one configuration file, no profiles. There is one script executed 
 To build a redpesk OS image for SolidRun Hummingboard Pulse targets, run:
 
 ```bash
-mkosi
+mkosi -I mkosi-hummingboard-pulse.conf --debug --force --debug-workspace
 ```
 
 The generated image will be available in the `output` directory.
