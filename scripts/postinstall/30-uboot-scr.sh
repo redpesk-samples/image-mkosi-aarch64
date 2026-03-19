@@ -4,10 +4,10 @@ set -e
 
 echo "Create boot.scr needed by uboot in $BUILDROOT/boot/bootscript.txt ..."
 cat <<'EOF' > $BUILDROOT/boot/bootscript.txt
-setenv mmcroot /dev/mmcblk${devnum}p3 rootwait rw
+setenv mmcroot /dev/mmcblk1p3 rootwait rw
 setenv bootargs ${jh_clk} console=${console} root=${mmcroot} security=smack
-load mmc ${devnum}:${mmcpart} ${loadaddr} Image
-load mmc ${devnum}:${mmcpart}  ${fdt_addr_r} imx8mp-hummingboard-pulse.dtb
+load mmc 1:2 ${loadaddr} Image
+load mmc 1:2  ${fdt_addr_r} imx8mp-hummingboard-pulse.dtb
 booti ${loadaddr} - ${fdt_addr_r}
 EOF
 
