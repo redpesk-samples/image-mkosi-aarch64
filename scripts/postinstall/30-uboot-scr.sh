@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# DO NOT DELETE - this bootscript is necessary for booting the target
+# Please update it depending on your partitions in ./mkosi.reparts/
+
 set -e
 
 echo "Create boot.scr needed by uboot in $BUILDROOT/boot/bootscript.txt ..."
